@@ -32,7 +32,7 @@ aBSetUP.addEventListener('click', function() {
 		Window01 = require('shoe/setup01');
 		var win1 = new Window01('SET UP');
 		win1.open({
-			modal: true, 
+			// modal: true, 
 			modalTransitionStyle: Ti.UI.iPhone.MODAL_TRANSITION_STYLE_FLIP_HORIZONTAL, 
 			modalStyle: Ti.UI.iPhone.MODAL_PRESENTATION_FULLSCREEN, 
 			navBarHidden: true
@@ -59,7 +59,7 @@ aBSubmit.addEventListener('click', function() {
 		Window01 = require('shoe/submit01');
 		var win1 = new Window01('SUBMIT');
 		win1.open({    
-			modal: true, 
+			// modal: true, 
 			modalTransitionStyle: Ti.UI.iPhone.MODAL_TRANSITION_STYLE_FLIP_HORIZONTAL, 
 			modalStyle: Ti.UI.iPhone.MODAL_PRESENTATION_FULLSCREEN, 
 			navBarHidden: true
